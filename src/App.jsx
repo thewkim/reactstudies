@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import React from 'react';
-import './App.css'
-
-const App = () => {
+function MyButton() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello, Tailwinssd CSS!</h1>
-    </div>
+    <button>I'm a button</button>
   );
-};
+}
 
-export default App;
-
+function App() {
+  return (
+    <>
+    <div className="App">
+      <h1>App</h1>
+      <MyButton />
+    </div>
+    </>
+  )
+}
+export default App
